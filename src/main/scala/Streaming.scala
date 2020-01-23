@@ -32,5 +32,7 @@ object Streaming {
       .start()
 
     query.awaitTermination()
+    // to test this, open a terminal and run the command: nc -lk 9999
+
   }
 }
