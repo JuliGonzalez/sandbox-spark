@@ -4,7 +4,6 @@ import org.apache.log4j.Level
 import org.apache.log4j.Logger
 
 
-
 object Streaming {
   def main(args: Array[String]) {
     Logger.getLogger("org").setLevel(Level.ERROR)
